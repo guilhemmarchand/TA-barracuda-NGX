@@ -69,13 +69,13 @@ sourcetype = barracuda_ngx_raw
 host_segment = 4
 ```
 
-**Barracuda raw data mode**
+**Barracuda kv data mode**
 
 Example of inputs.conf:
 
 ```
 [monitor:///var/log/syslog-remote/*/*.log]
 index = barracuda_firewall
-sourcetype = barracuda_ngx_raw
+sourcetype = barracuda_ngx_kv
 host_segment = 4
 ```
