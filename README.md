@@ -8,7 +8,7 @@ This Technology Addon provides index time parsing and search time extractions (C
 See:
 https://community.barracudanetworks.com/forum/index.php?/topic/27286-syslog-message-format/
 
-Barracuda data will ingested as syslog data, the strongly recommended approach is using a syslog receiver
+Barracuda data will be ingested as syslog data, the strongly recommended approach is using a syslog receiver
 (rsyslog, syslog-ng), and having Splunk with UF deployment monitoring the log files.
 Otherwise, Splunk can act as the syslog receiver, but this approach has various limitations compared to the much
  more robust receiver deployment.
