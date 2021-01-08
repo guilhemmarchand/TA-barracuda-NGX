@@ -79,3 +79,12 @@ index = barracuda_firewall
 sourcetype = barracuda_ngx_kv
 host_segment = 4
 ```
+
+## release notes
+
+** version 1.0.3 (08/01/2020) **
+
+- LINE_BREAKER: is too strict and can be much simpler and still accomodate expected Syslog format
+- TIME_PREFIX: is too strict if the Syslog priority field is removed, handle both with and without the priority field
+- Additional and improved search time extractions for raw format
+- minor change in the eventtype definition
